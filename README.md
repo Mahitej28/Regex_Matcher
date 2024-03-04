@@ -13,14 +13,13 @@ This is a simple flask application that allows users to input a test string and 
 ## File Structure
 ```
 note_taking_app/
-│
-├── src/                 # Source code directory
-│   ├── app.py           # Main Flask application file
-│   ├── static/          # Static assets (CSS, images, etc.)
-│   │   └── style.css    # Custom CSS styles
-│   └── templates/       # HTML templates
-│       └── home.html    # Main template for the note-taking interface
-└── README.md            # Documentation file
+│── app.py           # Main Flask application file
+│── static/          # Static assets (CSS, images, etc.)
+│   └── styles.css   # Custom CSS styles
+│── templates/       # HTML templates
+│   └── index.html   # Main template for the note-taking interface
+│   └── email.html
+└── README.md        # Documentation file
 
 ```
 ## 👀 Screenshots
@@ -39,17 +38,13 @@ note_taking_app/
 ```
 git clone <repository_url>
 ```
-- Navigate to the src directory:
-```
-cd src
-```
 - Run the Flask Application:
 ```
 flask run
 ```
 - Open your web browser and go to http://localhost:5000 to access the application.
 
-- Start adding, editing, and deleting notes using the provided interface.
+- Start testing your email and any input strings using the provided interface.
 
 ## 🛡 License
 
