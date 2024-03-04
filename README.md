@@ -20,6 +20,7 @@ note_taking_app/
 │   └── index.html   # Main template for the note-taking interface
 │   └── email.html
 └── README.md        # Documentation file
+└── Requirement.txt  # Requirement File 
 
 ```
 ## 👀 Screenshots
@@ -38,6 +39,11 @@ note_taking_app/
 ```
 git clone <repository_url>
 ```
+- Install all the required dependencies
+```
+pip install -r requirement.txt
+```
+  
 - Run the Flask Application:
 ```
 flask run
